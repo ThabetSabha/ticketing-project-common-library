@@ -2,9 +2,10 @@ import { CustomError } from "./CustomError";
 
 export class NotFoundError extends CustomError {
   statusCode = 404;
-  reason = "route not found";
-  constructor() {
+  public reason;
+  constructor(customReason: string) {
     super("route not found");
+    this.reason = customReason || "route not found";
   }
 
   serializeErrors() {
