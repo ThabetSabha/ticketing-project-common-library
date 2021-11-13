@@ -15,3 +15,12 @@ export * from "./middleware/current-user";
 export * from "./middleware/error-handler";
 export * from "./middleware/request-validator";
 export * from "./middleware/user-authenticator";
+
+/**
+ * Export Events
+ */
+export * from "./events/Listener";
+export * from "./events/Publisher";
+export * from "./events/Subjects";
+export * from "./events/TicketCreatedEvent";
+export * from "./events/TicketUpdatedEvent";
