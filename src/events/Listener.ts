@@ -6,6 +6,7 @@ interface Event {
   data: any;
 }
 
+// Generics used to enforce ts type checking when publishing events or creating a sub class.
 export abstract class Listener<T extends Event> {
   abstract subject: T["subject"];
   abstract queueGroupName: string;
