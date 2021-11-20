@@ -24,4 +24,6 @@ export * from "./events/Publisher";
 export * from "./events/Subjects";
 export * from "./events/TicketCreatedEvent";
 export * from "./events/TicketUpdatedEvent";
+export * from "./events/OrderCreatedEvent";
+export * from "./events/OrderCancelledEvent";
 export * from "./events/types/OrderStatusEnum";
