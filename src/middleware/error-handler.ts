@@ -16,8 +16,10 @@ export const errorHandler = (
     console.error(`Enountered Error:${err}`);
 
     return res.status(400).send({
-        errors: {
-            message: "something went wrong",
-        },
+        errors: [
+            {
+                message: "something went wrong",
+            },
+        ],
     });
 };
