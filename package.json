@@ -1,7 +1,10 @@
 {
     "name": "@thabet-ticketing/common",
     "version": "1.0.14",
-    "description": "",
+    "contributors": [
+        "Thabet Sabha <thabetsabha98@gmail.com>"
+    ],
+    "repository": "ThabetSabha/ticketing-project-common-library/",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "files": [
